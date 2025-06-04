@@ -1,1 +1,2 @@
-    pub const MANAGER: &str = "Oliver Orderson";
+
+pub const MANAGER: &str = "Oliver Orderson";
