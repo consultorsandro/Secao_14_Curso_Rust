@@ -13,10 +13,6 @@ pub struct Item {
 impl Item {
     pub fn new(name: String, category: ProductCategory, quantity: u32) -> Self {
         super::talk_to_manager();
-        Self {
-            name,
-            category,
-            quantity,
-        }
+        Self { name, category, quantity }
     }
 }
