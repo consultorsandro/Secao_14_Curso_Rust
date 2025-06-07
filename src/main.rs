@@ -1,6 +1,10 @@
 mod inventory;
 mod orders;
 
+use std::{
+    fmt, 
+    io::self, stdin, stdout};
+
 use fake::{Fake, Faker};
 
 use inventory::{Item, ProductCategory, FLOOR_SPACE, MANAGER as INVENTORY_MANAGER};
